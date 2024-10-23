@@ -1,0 +1,6 @@
+[submodule "xy_web_work/data/template/project"]
+	path = xy_web_work/data/template/project
+	url = http://8.135.31.13:6402/beachstudio/opensource/xy/service/python/xy-web-service/template/project/xy_web_service.git
+[submodule "xy_web_work/data/template/systemctl/config"]
+	path = xy_web_work/data/template/systemctl/config
+	url = http://8.135.31.13:6402/beachstudio/opensource/xy/system/linux/crosslinux/systemctl/python/xy_systemctl/template/xy_systemctl_service_config.git

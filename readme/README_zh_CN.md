@@ -50,6 +50,12 @@ if __name__ == "__main__":
 python main.py -c project -n xy_web_work_demo
 # 创建项目 [ xy_web_work_demo ] 成功!!!
 # 项目路径 ==>>> /mnt/bs-media/Workspace/project/opensource/xy-web-service/xy_web_work/test/xy_web_work_demo
+
+cp main.py xy_web_work_demo
+cd xy_web_work_demo
+python main.py
+# >>>>>>>>>>>> xy_web_work_demo - v1.0.1 <<<<<<<<<<<<<
+# Hello World!!!
 ```
 
 ## 许可证

@@ -16,7 +16,8 @@ from .Work import Work
 
 
 class WebWork(Work):
-    prog: str = xy_web_work.__name__
-    description: str = f""">>>>>>>>>>>> {xy_web_work.__name__} - v{xy_web_work.__version__} <<<<<<<<<<<<<"""
-    parser_key = "xy_web_parser"
     config_relative_path: Path = Path("config/xy_web.toml")
+
+    def __init__(self):
+        self.prog = xy_web_work.__name__
+        self.description = f""">>>>>>>>>>>> {xy_web_work.__name__} - v{xy_web_work.__version__} <<<<<<<<<<<<<"""

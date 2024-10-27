@@ -25,6 +25,7 @@ xy-web-service服务设置模块.
 ## 安装
 
 ```bash
+# bash
 pip install xy_web_work
 ```
 
@@ -35,11 +36,14 @@ pip install xy_web_work
 from xy_web_work.WebWork import WebWork as xyWebWork
 from xy_web_work.Settings.Settings import Settings
 
+
 class WebServerWork(xyWebWork):
     settings: Settings | None = Settings()
 
-    prog: str = "xy_test_demo"
-    description: str = f""">>>>>>>>>>>> xy_test_demo - v1.0.0 <<<<<<<<<<<<<"""
+    def __init__(self):
+        self.prog = "xy_test_demo"
+        self.description = f""">>>>>>>>>>>> xy_test_demo - v1.0.0 <<<<<<<<<<<<<"""
+
 
 if __name__ == "__main__":
     web_server_work = WebServerWork()
@@ -47,13 +51,14 @@ if __name__ == "__main__":
 ```
 
 ```bash
+# bash
 python main.py -c project -n xy_web_work_demo
 # 创建项目 [ xy_web_work_demo ] 成功!!!
 # 项目路径 ==>>> /mnt/bs-media/Workspace/project/opensource/xy-web-service/xy_web_work/test/xy_web_work_demo
 
 cp main.py xy_web_work_demo
 cd xy_web_work_demo
-python main.py
+python main.py -c runner
 # >>>>>>>>>>>> xy_web_work_demo - v1.0.1 <<<<<<<<<<<<<
 # Hello World!!!
 ```

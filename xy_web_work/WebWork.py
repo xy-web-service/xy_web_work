@@ -19,5 +19,5 @@ class WebWork(Work):
     config_relative_path: Path = Path("config/xy_web.toml")
 
     def __init__(self):
-        self.prog = xy_web_work.__name__
-        self.description = f""">>>>>>>>>>>> {xy_web_work.__name__} - v{xy_web_work.__version__} <<<<<<<<<<<<<"""
+        self.quick_default_info(xy_web_work.__name__)
+        self.description = "Web工作应用"

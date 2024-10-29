@@ -18,8 +18,8 @@ from .Section.Runner import Runner
 
 
 class Settings(xySettings):
-    project: Project | None
-    runner: Runner | None
+    project: Project | None = Project()
+    runner: Runner | None = Runner()
 
     def reload(self, settings_cfg_path: Path):
         super().reload(settings_cfg_path)

@@ -12,8 +12,10 @@ __doc__ = "Work"
 """
 
 from xy_work.Work import Work as xyWork
+from .ModuleData import ModuleData
 from .Settings.Settings import Settings
 
 
 class Work(xyWork):
     settings: Settings | None = Settings()
+    module_data: ModuleData = ModuleData()

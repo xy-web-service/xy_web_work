@@ -31,6 +31,20 @@ pip install xy_web_work
 
 ## 使用
 
+###### 1. 通用
+
+```bash
+# 创建项目
+xy_web_server -c project -n xy_web_demo
+cd xy_web_demo
+xy_web_server
+# >>>>>>>>>>>> xy_web_demo - v0.0.1 <<<<<<<<<<<<<
+#
+# xy_web_work Hello World!!!
+
+```
+
+###### 2. 扩展或者定制
 ```python
 # main.py
 from xy_web_work.WebWork import WebWork as xyWebWork
@@ -60,7 +74,7 @@ cp main.py xy_web_work_demo
 cd xy_web_work_demo
 python main.py -c runner
 # >>>>>>>>>>>> xy_web_work_demo - v1.0.1 <<<<<<<<<<<<<
-# Hello World!!!
+# xy_web_work Hello World!!!
 ```
 
 ## 许可证

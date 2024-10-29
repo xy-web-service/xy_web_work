@@ -14,6 +14,7 @@ __doc__ = "Project"
 from xy_work.Settings.Section.Project import Project as xyProject
 from .Section import Section
 
+
 class Project(Section, xyProject):
     def get_name(self) -> str | None:
-        return "xy_web_project"
+        return "project"

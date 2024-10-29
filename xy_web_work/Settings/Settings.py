@@ -18,6 +18,7 @@ from .Section.Runner import Runner
 
 
 class Settings(xySettings):
+    default_cfg_relative_path: Path = Path("config/xy_web_work.toml")
     project: Project | None = Project()
     runner: Runner | None = Runner()
 

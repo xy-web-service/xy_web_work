@@ -16,7 +16,7 @@ from .Work import Work
 
 
 class WebWork(Work):
-    config_relative_path: Path = Path("config/xy_web.toml")
+    config_relative_path: Path = Path("config/xy_web_work.toml")
 
     def __init__(self):
         self.quick_default_info(xy_web_work.__name__)

@@ -22,5 +22,17 @@ class ModuleData:
     def __init__(self) -> None:
         self.path = files(xy_web_work.__name__).joinpath("data")
         self.template_path = self.path.joinpath("template")
-        self.project_path = self.template_path.joinpath("project")
-        
+
+        ############################## Config #############################
+
+        self.config_path = self.template_path.joinpath("config")
+
+        self.work_toml_template_path = self.config_path.joinpath(
+            "xy_web_work_toml.template"
+        )
+
+        ############################## Runner #############################
+
+        self.runner_path = self.template_path.joinpath("runner")
+
+        self.runner_py_template_path = self.runner_path.joinpath("runner_py.template")

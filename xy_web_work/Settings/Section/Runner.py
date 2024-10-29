@@ -17,4 +17,4 @@ from .Section import Section
 
 class Runner(Section, xyWorkRunner):
     def get_name(self) -> str | None:
-        return "xy_web_runner"
+        return "runner"

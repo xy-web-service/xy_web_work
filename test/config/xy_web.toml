@@ -18,7 +18,7 @@ verbose_name = "测试 Demo"
 description = "测试 Demo 说明"
 
 # 项目路径
-path = "/home/余洋/workspace/xy_test_demo"
+path = "/home/helios/workspace/xy_test_demo"
 
 # ######################## xy_web_work运行配置 ###########################
 

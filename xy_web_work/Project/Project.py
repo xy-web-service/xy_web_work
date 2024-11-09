@@ -16,7 +16,7 @@ from pathlib import Path
 from argparse import ArgumentParser
 import shutil
 
-from xy_file.File import File
+from xy_file.Object.File import File
 
 from xy_web_settings.Mode import Mode
 from xy_web_settings.ModuleData import ModuleData as xyWebSettingsModuleData

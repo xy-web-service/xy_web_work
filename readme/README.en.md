@@ -8,9 +8,8 @@
 -->
 # xy_web_work
 
-- [简体中文](../README.md)
-- [繁體中文](README.zh-hant.md)
-- [English](README.en.md)
+| [简体中文](../README.md)         | [繁體中文](./README.zh-hant.md)        |                      [English](./README.en.md)          |
+| ----------- | -------------|---------------------------------------|
 
 ## Description
 
@@ -18,9 +17,8 @@ xy-web-service Service settings module.
 
 ## Source Code Repositories
 
-- <a href="https://github.com/xy-web-service/xy_web_work.git" target="_blank">Github</a>  
-- <a href="https://gitee.com/xy-opensource/xy_web_work.git" target="_blank">Gitee</a>  
-- <a href="https://gitcode.com/xy-opensource/xy_web_work.git" target="_blank">GitCode</a>  
+| [Github](https://github.com/xy-web-service/xy_web_work.git)         | [Gitee](https://gitee.com/xy-opensource/xy_web_work.git)        |                      [GitCode](https://gitcode.com/xy-opensource/xy_web_work.git)          |
+| ----------- | -------------|---------------------------------------|
 
 ## Installation
 
